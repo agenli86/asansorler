@@ -1,3 +1,4 @@
+// app/layout.tsx
 import type { Metadata } from 'next'
 import './globals.css'
 import Navbar from '@/components/Navbar'
@@ -7,10 +8,12 @@ import FloatingButtons from '@/components/FloatingButtons'
 export const metadata: Metadata = {
   metadataBase: new URL('https://adanaasansorkiralama.com'),
   title: {
-    default: 'Adana Asansör Kiralama | Kiralık Asansör, Ev Taşıma Asansörü, Mobil Asansör',
+    default:
+      'Adana Asansör Kiralama | Kiralık Asansör, Ev Taşıma Asansörü, Mobil Asansör',
     template: '%s | Adana Asansör Kiralama',
   },
-  description: 'Adana asansör kiralama hizmeti. Ev taşıma asansörü, mobil asansör kiralama, eşya taşıma asansörü kiralama, asansörlü nakliye ve nakliye asansörü ile profesyonel taşımacılık. Kiralık asansör Adana.',
+  description:
+    'Adana asansör kiralama hizmeti. Ev taşıma asansörü, mobil asansör kiralama, eşya taşıma asansörü kiralama, asansörlü nakliye ve nakliye asansörü ile profesyonel taşımacılık. Kiralık asansör Adana.',
   keywords: [
     'Adana asansör kiralama',
     'asansör taşıma',
@@ -41,8 +44,10 @@ export const metadata: Metadata = {
     locale: 'tr_TR',
     url: 'https://adanaasansorkiralama.com',
     siteName: 'Adana Asansör Kiralama',
-    title: 'Adana Asansör Kiralama | Kiralık Asansör, Ev Taşıma Asansörü',
-    description: 'Adana asansör kiralama hizmeti. Ev taşıma asansörü, mobil asansör kiralama, eşya taşıma asansörü ve asansörlü nakliye ile profesyonel taşımacılık.',
+    title:
+      'Adana Asansör Kiralama | Kiralık Asansör, Ev Taşıma Asansörü',
+    description:
+      'Adana asansör kiralama hizmeti. Ev taşıma asansörü, mobil asansör kiralama, eşya taşıma asansörü ve asansörlü nakliye ile profesyonel taşımacılık.',
     images: [
       {
         url: '/og-image.jpg',
@@ -54,8 +59,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Adana Asansör Kiralama | Kiralık Asansör, Ev Taşıma Asansörü',
-    description: 'Adana asansör kiralama hizmeti. Ev taşıma asansörü, mobil asansör kiralama ve asansörlü nakliye.',
+    title:
+      'Adana Asansör Kiralama | Kiralık Asansör, Ev Taşıma Asansörü',
+    description:
+      'Adana asansör kiralama hizmeti. Ev taşıma asansörü, mobil asansör kiralama ve asansörlü nakliye.',
     images: ['/og-image.jpg'],
   },
   alternates: {
@@ -63,6 +70,12 @@ export const metadata: Metadata = {
   },
   verification: {
     google: 'google-site-verification-code',
+  },
+  // 🔥 favicon ayarı buradan geliyor
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/apple-touch-icon.png', // yoksa bu dosyayı silersin veya satırı kaldırırsın
   },
 }
 
@@ -74,13 +87,12 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="theme-color" content="#1e40af" />
         <meta name="geo.region" content="TR-01" />
         <meta name="geo.placename" content="Adana" />
         <meta name="geo.position" content="37.0000;35.3213" />
         <meta name="ICBM" content="37.0000, 35.3213" />
+
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"
@@ -89,7 +101,8 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'LocalBusiness',
               name: 'Adana Asansör Kiralama',
-              description: 'Adana asansör kiralama hizmeti. Ev taşıma asansörü, mobil asansör kiralama, eşya taşıma asansörü ve asansörlü nakliye.',
+              description:
+                'Adana asansör kiralama hizmeti. Ev taşıma asansörü, mobil asansör kiralama, eşya taşıma asansörü ve asansörlü nakliye.',
               image: 'https://adanaasansorkiralama.com/og-image.jpg',
               telephone: '+905374092406',
               address: {
