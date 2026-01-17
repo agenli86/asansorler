@@ -145,7 +145,7 @@ export default function Home() {
         <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-white to-transparent"></div>
       </section>
 
-      {/* Main Article Section */}
+      {/* Main Article Section - TAM MAKALE */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
@@ -162,7 +162,31 @@ export default function Home() {
               <p>
                 <strong>Ev taşıma asansörü</strong>, özellikle dar merdivenlerden geçemeyen büyük mobilyalar ve beyaz eşyalar için 
                 mükemmel bir çözüm sunar. Koltuk takımları, yatak odası mobilyaları, buzdolabı ve çamaşır makinesi gibi ağır eşyalar, 
-                <strong>asansörlü nakliye</strong> sistemiyle güvenle yüksek katlara çıkarılabilmektedir.
+                <strong>asansörlü nakliye</strong> sistemiyle güvenle yüksek katlara çıkarılabilmektedir. Bu sayede hem eşyalarınız 
+                korunmuş olur hem de taşıma süreci çok daha kısa sürede tamamlanır.
+              </p>
+              <p>
+                <strong>Eşya taşıma asansörü kiralama</strong> hizmeti sadece ev taşımacılığıyla sınırlı değildir. İnşaat sektöründe 
+                de yaygın olarak kullanılan bu sistem, ağır malzemelerin yüksek katlara güvenle taşınmasını sağlar. Tuğla, çimento, 
+                kum, seramik ve diğer inşaat malzemeleri <strong>mobil asansör</strong> yardımıyla kolayca istenen kata çıkarılabilir. 
+                Bu durum, işçi güvenliğini artırırken inşaat süresini de önemli ölçüde kısaltmaktadır.
+              </p>
+              <p>
+                Adana'nın farklı ilçelerinde hizmet veren firmamız, <strong>mobil asansör kiralama</strong> konusunda uzman kadrosuyla 
+                müşterilerine en iyi hizmeti sunmayı hedeflemektedir. Seyhan, Yüreğir, Çukurova, Sarıçam ve diğer tüm ilçelerde 
+                7/24 ulaşılabilir durumdayız. Modern ekipmanlarımız ve deneyimli operatörlerimiz sayesinde her türlü taşıma işlemi 
+                sorunsuz bir şekilde gerçekleştirilmektedir.
+              </p>
+              <p>
+                <strong>Nakliye asansörü</strong> kullanımının bir diğer önemli avantajı da maliyet tasarrufudur. Geleneksel yöntemlerle 
+                yapılan taşımalarda birden fazla işçi gerekirken, asansörlü sistemle aynı iş çok daha az personelle tamamlanabilmektedir. 
+                Ayrıca eşyaların taşıma sırasında zarar görme riski minimuma indiğinden, olası hasar masraflarından da kaçınılmış olur.
+              </p>
+              <p>
+                <strong>Adana asansör kiralama</strong> hizmetimizle, taşınma stresini minimuma indirin. Profesyonel ekibimiz, 
+                eşyalarınızın güvenliğini en üst düzeyde tutarak, hızlı ve sorunsuz bir taşıma deneyimi sunmaktadır. 
+                İster ev taşıması olsun, ister ofis taşıması veya inşaat malzemesi taşıması, her türlü ihtiyacınız için 
+                yanınızdayız. Hemen bizimle iletişime geçin ve ücretsiz fiyat teklifi alın.
               </p>
             </article>
           </div>
@@ -177,14 +201,14 @@ export default function Home() {
               <h2 className="text-2xl md:text-3xl font-bold">
                 Eşya Taşıma Asansörü Kiralama Fiyatları Adana 2026
               </h2>
-              <p className="text-primary-100 mt-2 italic">En Uygun Fiyat Garantisi ile Hizmetinizdeyiz</p>
+              <p className="text-primary-100 mt-2 italic">Ekonomik ve Profesyonel Hizmet</p>
             </div>
             <div className="overflow-x-auto">
               <table className="w-full text-left">
                 <thead>
                   <tr className="bg-gray-100 text-primary-800 uppercase text-sm">
-                    <th className="px-6 py-4 font-bold border-b">Kiralama Türü / Kat Aralığı</th>
-                    <th className="px-6 py-4 font-bold border-b text-right">Fiyat</th>
+                    <th className="px-6 py-4 font-bold border-b">Hizmet Kapsamı</th>
+                    <th className="px-6 py-4 font-bold border-b text-right">Güncel Fiyat</th>
                   </tr>
                 </thead>
                 <tbody className="text-gray-700">
@@ -200,8 +224,8 @@ export default function Home() {
                 </tbody>
               </table>
             </div>
-            <div className="p-4 bg-gray-50 text-center text-xs text-gray-500 italic">
-              * Fiyatlarımız 2026 yılı için günceldir. Mesafe ve eşya durumuna göre net teklif alınız.
+            <div className="p-4 bg-gray-100 text-center text-xs text-gray-500 italic">
+              * Fiyatlar 2026 yılı için geçerli olup, net teklif için lütfen iletişime geçiniz.
             </div>
           </div>
         </div>
@@ -277,9 +301,16 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {blogPosts.map((post, index) => (
               <div key={index} className="card group">
+                <div className="h-48 bg-gradient-to-br from-primary-600 to-primary-800 flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 text-secondary-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                  </svg>
+                </div>
                 <div className="p-6">
                   <div className="text-sm text-gray-500 mb-3">{post.readTime} okuma</div>
-                  <h3 className="text-lg font-bold text-primary-800 mb-3">{post.title}</h3>
+                  <h3 className="text-lg font-bold text-primary-800 mb-3 group-hover:text-primary-600 transition-colors">
+                    {post.title}
+                  </h3>
                   <p className="text-gray-600 mb-4 text-sm">{post.excerpt}</p>
                   <Link href={`/blog/${post.slug}`} className="text-primary-600 font-semibold">
                     Devamını Oku
