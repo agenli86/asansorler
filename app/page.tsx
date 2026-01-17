@@ -3,8 +3,8 @@ import Link from 'next/link'
 import TabSection from '@/components/TabSection'
 
 export const metadata: Metadata = {
-  title: 'Adana Asansör Kiralama Fiyatları | Eşya Taşıma ve Mobil Asansör 2026',
-  description: 'Adana eşya taşıma asansörü kiralama fiyatları 2026 listesi. En uygun fiyatlarla kiralık asansör, ev taşıma ve mobil asansör hizmetleri burada.',
+  title: 'Adana Asansör Kiralama | Kiralık Asansör, Ev Taşıma Asansörü, Mobil Asansör',
+  description: 'Adana asansör kiralama hizmeti.Eşya taşıma asansörü kiralama fiyatları 2026 Ev taşıma asansörü, mobil asansör kiralama ve asansörlü nakliye ile profesyonel taşımacılık.',
   openGraph: {
     title: 'Adana Asansör Kiralama Fiyatları | 2026 Güncel Liste',
     description: 'Adana\'da asansör kiralama fiyatlarını öğrenin. Eşya taşıma asansörü ve mobil asansör kiralama hizmetleri.',
